@@ -76,7 +76,7 @@ nginx/
     └── app3.conf
 ```
 
-2. Add a new server block:
+2. Add a server block in the new configuration file:
 
 ```nginx
 server {
