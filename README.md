@@ -93,6 +93,8 @@ server {
     }
 }
 ```
+---
+> No changes to nginx.conf are required. Nginx automatically loads all configuration files from the conf.d directory.
 
 3. Validate the configuration:
 
