@@ -1,0 +1,9 @@
+services:
+  nginx:
+    image: nginx:1.27
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/conf.d:/etc/nginx/conf.d
+    restart: unless-stopped
